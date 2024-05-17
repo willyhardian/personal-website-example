@@ -1,0 +1,152 @@
+/* @import url(https://db.onlinewebfonts.com/c/40ee97dfced68264064a8ecdb5726ea8?family=Glosa+W01+Roman);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/10d0b50da141372ab1f5ae8af6193f9e?family=Glosa+W01+Black); */
+
+*, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+.cover {
+    position: relative;
+}
+nav{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    border-bottom: 1px solid #E31837;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 32px;
+}
+
+nav ul li a{
+    padding: 8px 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    transition: all;
+    transition-duration: 150ms;
+}
+
+nav div img{
+    width: 40px;
+    height: 40px;
+}
+
+nav ul li a:hover {
+    color: #E31837;
+    border-bottom: 2px solid #E31837;
+}
+
+.shortIntro{
+    margin-top: -37%;
+    width: 600px;
+    margin-left: 50%;
+    text-align: end;
+}
+
+ .coverP1 {
+    font-family: "Glosa W01 Roman";
+    font-size: 20px;
+    color: white;
+}
+
+.coverP2{
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.751);
+}
+
+.shortIntro h1{
+    color: rgba(255, 255, 255, 0.751);
+    font-family: "Glosa W01 Black";
+    font-size: 100px;
+    line-height: 1.1;
+}
+
+#mahomes-covername{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.coverPict{
+    width: 500px;
+    position: absolute;
+    left: 65px;
+    bottom: 0;
+}
+
+.colored-box {
+    background-color: #E31837;
+    height: 40vh; 
+    width: 100%;  
+    display: flex;
+}
+
+.colored-box2 {
+    background-color: #e31836dc;
+    height: 51.9vh; 
+    width: 100%;  
+    display: flex;
+}
+
+.btn{
+    position: absolute; 
+    right: 250px; 
+    bottom: 230px; 
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    padding: 14px 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: none;
+    font-size: 16px;
+    color: #E31837;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+
+.btn:hover{
+    box-shadow: 0 0 1rem white;
+}
+
+.social-media{
+    position: absolute;
+    right: 220px; 
+    bottom: 100px;
+    display: flex;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border: .2rem solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    background: white;
+    color: #E31837;
+    box-shadow: 0 0 1rem white;
+}
